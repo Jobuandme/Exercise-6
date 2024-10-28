@@ -114,25 +114,44 @@
       #sidebar h2 {
         padding: 30px 0px 10px 0px;
       }
-      ul {
+      
+      #nav ul {
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 5px 0px 10px 20px;
         overflow: hidden;
-        height: 40px;
+        height: 30px;
         background-color: 808080;
+        font-family: "Roboto", Times, serif;
       }
       
-      li {
+      #nav li {
         float: left;
-        padding: 10;
-        color: white;
-
+        padding: 10px 10px 10px 10px;
       }
       
-      
-      
-      
+      #nav a:link {
+        color: white;
+        
+      }
+
+      /* visited link */
+      #nav a:visited {
+        color: purple;
+        
+      }
+
+      /* mouse over link */
+      #nav a:hover {
+        color: E06581;
+        
+      }
+
+      /* selected link */
+      #nav a:active {
+        color: blue;
+        
+      }
     </style>
 
   </head>
@@ -142,10 +161,10 @@
         <h1>Yoko's Kitchen</h1>
         <div id="nav">
           <ul>
-            <li><a href="/">HOME</a></li>
-            <li><a href="/">CLASSES</a></li>
-            <li><a href="/">CATERING</a></li>
-            <li><a href="/">ABOUT</a></li>
+            <li><a href="/1">HOME</a></li>
+            <li><a href="/2">CLASSES</a></li>
+            <li><a href="/3">CATERING</a></li>
+            <li><a href="/4">ABOUT</a></li>
           </ul>
           <!--
                     Instructions: Add a list using the <ul> element and the <li> element to create a link for each menu item. Set the href value to empty. Normally you would put the relative path of page you are linking to, but we are creating a placeholder.
